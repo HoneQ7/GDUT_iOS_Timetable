@@ -1,2 +1,56 @@
-# GDUT_iOS_Timetable
-åŸºäº iOS Scriptable çš„å¹¿ä¸œå·¥ä¸šå¤§å­¦æ•™åŠ¡ç³»ç»Ÿè¯¾è¡¨å·¥å…·ã€‚
+# GDUT iOS Timetable
+
+»ùÓÚ iOS Scriptable µÄ¹ã¶«¹¤Òµ´óÑ§½ÌÎñÏµÍ³¿Î±í¹¤¾ß¡£
+
+## ¹¦ÄÜ
+
+- ±£´æ JSESSIONID µÇÂ¼Ì¬
+- Í¬²½¶àÖÜ¿Î±í
+- ±¾µØ»º´æ¿Î±í
+- iOS ×ÀÃæĞ¡×é¼şÏÔÊ¾½ñÈÕ¿Î³Ì
+- µÇÂ¼Ì¬¹ıÆÚÌáĞÑ
+- Apple ÈÕÀúĞ´Èë
+- ¿ÎÇ°ÌáĞÑ¡¢ÉÏ¿Î¿ªÊ¼¡¢ÏÂ¿Î½áÊø±¾µØÍ¨Öª
+- ¿ì½İÖ¸ÁîÒ»¼ü¸üĞÂ
+
+## ½Å±¾ËµÃ÷
+
+| ÎÄ¼ş | ×÷ÓÃ |
+|---|---|
+| `GDUT_SetCookie.js` | ÊÖ¶¯±£´æ JSESSIONID |
+| `GDUT_TestWeek.js` | ²âÊÔµ¥ÖÜ¿Î±í½Ó¿Ú |
+| `GDUT_CheckSession.js` | ¼ì²éµÇÂ¼Ì¬ |
+| `GDUT_SyncTimetable.js` | Í¬²½¿Î±í²¢Éú³É»º´æ |
+| `GDUT_TodayWidget.js` | iOS ×ÀÃæĞ¡×é¼ş |
+| `GDUT_WriteCalendar.js` | Ğ´Èë Apple ÈÕÀú |
+| `GDUT_ScheduleNotifications.js` | °²ÅÅ±¾µØÍ¨Öª |
+| `GDUT_RunSummary.js` | Ò»¼ü¸üĞÂºóµÄ»ã×ÜÏÔÊ¾ |
+
+## °²È«ËµÃ÷
+
+±¾ÏîÄ¿²»»á±£´æ½ÌÎñÏµÍ³ÕËºÅºÍÃÜÂë¡£
+
+JSESSIONID Ö»Ó¦±£´æÔÚ Scriptable Keychain ÖĞ£¬²»Ó¦Ğ´Èë´úÂë¡¢ÈÕÖ¾¡¢README¡¢½ØÍ¼»ò GitHub ²Ö¿â¡£
+
+²»ÒªÉÏ´«£º
+
+- `gdut_schedule.json`
+- `gdut_auth_status.json`
+- `gdut_notification_status.json`
+- `gdut_calendar_status.json`
+- ÈÎºÎ°üº¬ Cookie / JSESSIONID µÄ curl¡¢HAR¡¢½ØÍ¼
+
+## Ê¹ÓÃ·½Ê½
+
+1. ÔÚ iPhone °²×° Scriptable¡£
+2. ½« `scripts/` Ä¿Â¼ÖĞµÄ½Å±¾¸´ÖÆµ½ Scriptable¡£
+3. ÔËĞĞ `GDUT_SetCookie` ±£´æ JSESSIONID¡£
+4. ÔËĞĞ `GDUT_SyncTimetable` Í¬²½¿Î±í¡£
+5. Ìí¼Ó Scriptable Ğ¡×é¼ş£¬Ñ¡Ôñ `GDUT_TodayWidget`¡£
+6. ÔËĞĞ `GDUT_WriteCalendar` Ğ´Èë Apple ÈÕÀú¡£
+7. ÔËĞĞ `GDUT_ScheduleNotifications` °²ÅÅÍ¨Öª¡£
+8. ÔÚ¿ì½İÖ¸ÁîÖĞÅäÖÃÒ»¼ü¸üĞÂºÍ×Ô¶¯»¯¡£
+
+## ÃâÔğÉùÃ÷
+
+±¾ÏîÄ¿½öÓÃÓÚ¸öÈËÑ§Ï°ºÍ¸öÈË¿Î±í²é¿´¡£Çë×ñÊØÑ§Ğ£ÏµÍ³Ê¹ÓÃ¹æ·¶£¬²»ÒªÈÆ¹ıÑéÖ¤Âë¡¢Í³Ò»ÈÏÖ¤»ò·ÃÎÊ¿ØÖÆ¡£
