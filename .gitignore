@@ -1,0 +1,32 @@
+# Runtime cache files
+gdut_schedule.json
+gdut_auth_status.json
+gdut_notification_status.json
+gdut_calendar_status.json
+*.log
+
+# Secrets / cookies / network exports
+.env
+.env.*
+secrets.*
+cookies.txt
+*.har
+*.curl
+curl*.txt
+*cookie*
+*Cookie*
+*JSESSIONID*
+
+# Keep source scripts with Cookie in their filename
+!GDUT_SetCookie.js
+!scripts/GDUT_SetCookie.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
